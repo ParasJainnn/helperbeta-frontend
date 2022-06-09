@@ -21,11 +21,10 @@ import { RestaurantComponent } from './restaurant/restaurant.component';
 import { FormsModule,ReactiveFormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
 import{HttpClientModule} from '@angular/common/http';
-import { BlogComponent } from './restaurant/blog/blog.component';
-import { ReservationComponent } from './restaurant/reservation/reservation.component';
-import { AboutComponent } from './restaurant/about/about.component';
-import { ContactComponent } from './restaurant/contact/contact.component';
-import { MenuComponent } from './restaurant/menu/menu.component';
+import { AngularBotModule } from './chatbot/angular-bot.module';
+import { CalculatorComponent } from './calculator/calculator.component'
+
+
 
 @NgModule({
   declarations: [
@@ -36,21 +35,16 @@ import { MenuComponent } from './restaurant/menu/menu.component';
     SidenavComponent,
     ShareitComponent,
     RestaurantComponent,
-    ChatbotComponent,
+  
     PhotoeditComponent,
-    BlogComponent,
-    ReservationComponent,
-    AboutComponent,
-    ContactComponent,
-    MenuComponent,
-    BlogComponent,
-    ReservationComponent,
-    
-  ],
+    CalculatorComponent,
+    ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
+    AngularBotModule,
+  
     // * MATERIAL IMPORTS
     MatSidenavModule,
     MatToolbarModule,
@@ -58,6 +52,7 @@ import { MenuComponent } from './restaurant/menu/menu.component';
     MatIconModule,
     MatDividerModule,
     MatListModule,
+    
   ],
   providers: [],
   bootstrap: [AppComponent],

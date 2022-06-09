@@ -1,33 +1,35 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" routerLink="/restaurant">Home</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" routerLink="restaurant/blog">blog <span class="sr-only"></span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" routerLink="/about">About</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" routerLink="/reservation">Reservetion</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" routerLink="/menu">Menu</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" routerLink="/contact">Contact</a>
-      </li>
-  
+
+<body>
+<header>
+  <nav id="header-nav" class="navbar navbar-default">
+    <div class="container">
+      
+      <div class="navbar-header">
+        <a class="pull-left visible-md visible-lg">
+          <div id="logo-img"></div>
+        </a>
+
+        <div class="navbar-brand">
+          <a ><h1>JainsHouse Restaurant & Bar</h1></a>
+          <p>
+            <img src=".\assets\restaurant\fssai logo.png"alt="Fssai certification">
+            <span>Fssai Certified</span>
+          </p>
+        </div>
+
+        <nav class="navbar navbar-light bg-light">
+          <form class="form-inline">
+            <button class="btn btn-outline-success" type="button">Main button</button>
+            <button class="btn btn-sm btn-outline-secondary" type="button">Smaller button</button>
+          </form>
+        </nav>
+      </div>
      
-     
-    </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
-  </div>
-</nav>
+      
+    
+      
+    </div><!-- .container -->
+  </nav><!-- #header-nav -->
+</header>
+</body>

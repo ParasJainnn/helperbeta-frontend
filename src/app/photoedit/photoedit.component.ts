@@ -10,6 +10,8 @@ export class PhotoeditComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+
   }
+  
 
 }
