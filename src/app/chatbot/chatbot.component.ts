@@ -24,7 +24,7 @@ export class ChatbotComponent implements OnInit {
   }
   
   sendMessage() {
-    this.chatService.getBotAnswer(value);
+    this.chatService.getBotAnswer(this.value);
     this.value = '';
   }
 }
