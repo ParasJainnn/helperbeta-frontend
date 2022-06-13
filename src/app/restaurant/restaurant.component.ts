@@ -14,6 +14,15 @@ export class RestaurantComponent implements OnInit {
 
   ngOnInit(): void {
   }
+   menu ={
+    id:1,
+    name:'Potato',
+    quantity:' 1 plate',
+    price:'100',
+    veg:'true'
+
+
+  }
 
 }
 
