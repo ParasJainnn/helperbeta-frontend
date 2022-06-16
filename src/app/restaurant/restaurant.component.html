@@ -42,37 +42,3 @@
   </nav><!-- #header-nav -->
 </header>
 </body>
-<div bsModal #menubutton="bs-modal" class ="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-<div class="modal-dialog modal-lg" role ="document">
-  <div class="modal-content">
-    <button class="close" (click)="menubutton.hide()" aria-label="close">
-      <span aria-hidden="true">&times;</span>
-    </button>
-  </div>
-  <div class="modal-body">
-    <form #menubuttonform ='NgForm'>
-      <div class="row col-sm-12">
-        <label for ="firstname">id</label>
-        <input type="text" id="id" name="id" value="{{menu.id}}" class="form-control">
-      </div>
-      <div class="row col-sm-12">
-        <label for ="firstname">name</label>
-        <input type="text" id="name" name="name" value="{{menu.name}}" class="form-control">
-      </div>
-      <div class="row col-sm-12">
-        <label for ="firstname">quantity</label>
-        <input type="text" id="quantity" name="quantity" value="{{menu.quantity}}" class="form-control">
-      </div>
-      <div class="row col-sm-12">
-        <label for ="firstname">price</label>
-        <input type="text" id="price" name="price" value="{{menu.price}}" class="form-control">
-      </div>
-      <div class="row col-sm-12">
-        <label for ="firstname">veg</label>
-        <input type="text" id="veg" name="veg" value="{{menu.veg}}" class="form-control">
-      </div>
-    </form>
-  </div>
-</div>
-
-</div>

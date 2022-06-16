@@ -1,6 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
@@ -23,6 +22,13 @@ import { CommonModule } from '@angular/common';
 import{HttpClientModule} from '@angular/common/http';
 import { AngularBotModule } from './chatbot/angular-bot.module';
 import { CalculatorComponent } from './calculator/calculator.component'
+import { ButtonsModule } from 'ngx-bootstrap/buttons';
+import { CarouselModule } from 'ngx-bootstrap/carousel';
+import { CollapseModule } from 'ngx-bootstrap/collapse';
+import { BsDatepickerModule, BsDatepickerConfig } from 'ngx-bootstrap/datepicker';
+import { BsDropdownModule,BsDropdownConfig } from 'ngx-bootstrap/dropdown';
+import { ModalModule, BsModalService } from 'ngx-bootstrap/modal';
+
 
 
 
@@ -40,6 +46,8 @@ import { CalculatorComponent } from './calculator/calculator.component'
     CalculatorComponent,
     ],
   imports: [
+    ModalModule.forRoot(),
+    
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
